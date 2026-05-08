@@ -1,0 +1,18 @@
+Source: php-vitexus-html5-php
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://github.com/Masterminds/html5-php
+Vcs-Git: https://github.com/Vitexus/html5-php.git
+Rules-Requires-Root: no
+
+Package: php-vitexus-html5-php
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, php-xml, php-mbstring
+Description: HTML5 parser and serializer for PHP
+ An HTML5 parser and serializer for PHP. Provides an HTML5 compliant
+ parser and serializer that can be used as a drop-in replacement for
+ PHP's built-in DOM parser. Supports HTML5 parsing algorithm and
+ tree construction.
